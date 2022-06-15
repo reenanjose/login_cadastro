@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+}
+
+  body{
+    background-color: wheat;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+}
+.login{
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    line-height: 50px;
+    margin-top: 80px;
+}
+
+.login input{
+    width: 50%;
+    height: 19px;
+}
+input::placeholder{
+    font-size: 16px;
+} 
+
+.btn{
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    width: 170px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    zoom: 105%;
+}
+

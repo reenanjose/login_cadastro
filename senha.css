@@ -1,0 +1,48 @@
+*{
+    text-align: center;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+}
+
+body{
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+}
+.senha{
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 80px;
+}
+.obgt{
+    color: red;
+}
+.btn{
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    width: 170px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    zoom: 105%;
+}
+
+.senha1{
+    width: 180px;
+    height: 18px;
+    border-radius: 4px;
+}
