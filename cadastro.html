@@ -11,7 +11,7 @@
         <div class="cadastro">
             <div class="cpf">
               <h1>Criar seu cadastro</h1>
-              Nome completo<span class="obrigatorio">*</span>: <br><input type="text" name="" id=""><br>
+              Nome completo<span class="obrigatorio">*</span>: <br><input type="text" class="nomeC" maxlength="25"><br>
               Email<span class="obrigatorio">*</span>: <br><input type="email" name="mail" id=""> <br>
             </div>
            
@@ -32,14 +32,14 @@
       <div class="cpf">
         Telefone<span class="obrigatorio">*</span>: <br>
           <span class="info">Caso a gente precise entrar em contato com você</span> <br>
-          <input type="tel" name="telefone" id=""> <br>
+          <input type="tel" name="telefone" maxlength="11"> <br>
       </div> 
       
       <div class="cpf">
       Senha<span class="obrigatorio">*</span>: <br>
       <span class="info">Crie uma senha que tenha entre 6 e 20 caracteres</span> <br>
-        <input type="password"> <br>
-       <div class="cpf">Confirme sua senha<span class="obrigatorio">*</span>: <br> <input type="password" name="" id=""></div>
+        <input type="password" maxlength="20"> <br>
+       <div class="cpf">Confirme sua senha<span class="obrigatorio">*</span>: <br> <input type="password" maxlength="20"></div>
         <button class="btn">Criar cadastro</button>
         <div class="cpf">Já tem uma conta?<a href="index.html">Fazer login</a></div>
       </div>

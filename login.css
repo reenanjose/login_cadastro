@@ -27,7 +27,7 @@ h1{
 }
 
 .login input{
-    width: 50%;
+    width: 55%;
     height: 19px;
 }
 input::placeholder{
@@ -49,3 +49,15 @@ input::placeholder{
     zoom: 105%;
 }
 
+input[type='email']{
+    background-image: url(icons/icons8-mail-64.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 190px;
+}
+
+input[type='password']{
+    background-size: contain;
+    background-image: url(icons/icons8-privacidade-48.png);
+    background-repeat: no-repeat;
+}

@@ -50,3 +50,14 @@ h1{
 .senha2>input{
     height: 25px;
 }
+
+input[type='email']{
+    background-image: url(icons/icons8-mail-64.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+}
+
+input[type='email']:focus{
+    background-image: none;
+}
