@@ -51,13 +51,17 @@ h1{
     height: 25px;
 }
 
+.senha3{
+    margin-top: -40px;
+}
+.senha3>input{
+    height: 35px;
+}
 input[type='email']{
     background-image: url(icons/icons8-mail-64.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 200px;
+    background-size: 9%;
+    background-position: 0px -2px;
+    width: 250px;
 }
 
-input[type='email']:focus{
-    background-image: none;
-}

@@ -52,12 +52,19 @@ input::placeholder{
 input[type='email']{
     background-image: url(icons/icons8-mail-64.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 190px;
+    background-size: 8%;
+    text-align: start;
+    width: 220px;
+    height: 32px;
+    background-position: right -2px;
+}
+input::placeholder{
+    text-align: center;
 }
 
 input[type='password']{
-    background-size: contain;
+    background-position: right;
+    background-size: 8%;
     background-image: url(icons/icons8-privacidade-48.png);
     background-repeat: no-repeat;
 }

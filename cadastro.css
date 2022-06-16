@@ -1,7 +1,6 @@
 *{
     text-align: center;
 }
-
 @font-face {
     font-family: 'Roboto', sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
@@ -64,21 +63,31 @@ span.info{
     zoom: 105%;
 }
 
+input[type='text']{
+    width: 250px;
+    height: 35px;
+}
+
 input[type='email']{
     background-image: url(icons/icons8-mail-64.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 190px;
+    background-size: 8%;
+    width: 250px;
+    
+    background-position: right -2px;
+    height: 35px;
 }
 
 input[type='password']{
-    background-size: contain;
+    background-size: 11%;
     background-image: url(icons/icons8-privacidade-48.png);
     background-repeat: no-repeat;
+    background-position: 0px center;
 }
 
 input[type='tel']{
     background-image: url(icons/icons8-telefone-30.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 12%;
+    background-position: 0px center;
 }
