@@ -67,7 +67,9 @@ input[type='text']{
     width: 250px;
     height: 35px;
 }
-
+.cpf .data{
+    width: 150px;
+}
 input[type='email']{
     background-image: url(icons/icons8-mail-64.png);
     background-repeat: no-repeat;
@@ -83,6 +85,7 @@ input[type='password']{
     background-image: url(icons/icons8-privacidade-48.png);
     background-repeat: no-repeat;
     background-position: 0px center;
+    height: 30px;
 }
 
 input[type='tel']{
@@ -90,4 +93,5 @@ input[type='tel']{
     background-repeat: no-repeat;
     background-size: 12%;
     background-position: 0px center;
+    height: 30px;
 }
