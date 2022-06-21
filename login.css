@@ -63,6 +63,7 @@ input::placeholder{
 }
 
 input[type='password']{
+    height: 20px;
     background-position: right;
     background-size: 8%;
     background-image: url(icons/icons8-privacidade-48.png);
