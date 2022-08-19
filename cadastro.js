@@ -1,5 +1,5 @@
 function clicar(){
-    document.getElementById('clique').innerHTML = alert('Cadastro realizado com Sucesso!')
+    document.getElementById('clique').innerHTML = alert('Cadastro realizado com Sucesso! ✅')
 }
 
 
@@ -9,3 +9,4 @@ $(document) .ready(function() {
     $('.tel') .mask('(00)00000-0000')
     $('.data') .mask('00/00/0000')
 } )
+

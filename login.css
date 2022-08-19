@@ -54,8 +54,8 @@ input[type='email']{
     background-repeat: no-repeat;
     background-size: 8%;
     text-align: start;
-    width: 220px;
-    height: 32px;
+    width: 210px;
+    height: 25px;
     background-position: right -2px;
 }
 input::placeholder{
@@ -63,7 +63,7 @@ input::placeholder{
 }
 
 input[type='password']{
-    height: 20px;
+    height: 20 px;
     background-position: right;
     background-size: 8%;
     background-image: url(icons/icons8-privacidade-48.png);
